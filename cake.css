@@ -1,0 +1,3818 @@
+/* zero space */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:antiquewhite; */
+}
+
+/* first type */
+
+@media screen and (max-width:480px)
+{
+/* top-heading */
+body{
+   background:rgb(241, 241, 241);
+}
+
+header{
+  background-color: antiquewhite;
+  height: 190px;
+  z-index: -1;
+}
+
+ .black{
+   position: absolute;
+   top: -10px;
+   width: 300px;
+   height: 50px;
+   margin-left: 80px;
+   z-index: 1;
+ }
+
+ .deli{
+   position: absolute;
+    font-size: 10px;
+    top: 5px;
+    left: 200px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: antiquewhite;
+    z-index: 1;
+   }
+
+ .Heading ul{
+     position: absolute;
+     display: flex;
+     top: 13px;
+     left: 100px;
+     list-style-type: none;
+     font-size: 8px;
+     z-index: 1;
+ }
+ 
+ .Heading  ul li{
+    display: inline-block;
+ } 
+ 
+ .Heading  ul li a{
+    display:flex;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+   color:rgb(19, 177, 40); 
+ } 
+ 
+ .Heading li a:hover{
+    color: rgba(218, 71, 13, 0.938);
+ } 
+
+ .social{
+     display: inline-flex;
+     position: absolute;
+     left: 190px;
+     top: 30px; 
+     z-index: 1;
+ }
+
+ .social .Instagram{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .social .facebook{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .social .youtube{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .quality{
+    font-size: 5px;
+    color: aliceblue;
+    font-size: 4px;
+    margin-left: 4px;
+ }
+
+ /*first page */
+
+ .dark{
+   position: absolute;
+   left: -12px;;
+   top: -12px;
+   width: 500px;
+   height: 203px;
+ }
+
+ .learn{
+   position: absolute;
+   right: 60px;
+   top: 70px;
+   font-size: 12px;
+   font-weight: 100;
+   font-family:system-ui;
+ }
+ 
+ .chocolate{
+   position: absolute;
+   right: 70px;
+   top: 110px;
+   font-size: 9px;
+   font-weight: 100px;
+   font-family:'poppins';
+ }
+
+ .chocolate a{
+    position: absolute;
+    top: 40px;
+    text-decoration: none;
+    background-color: rgba(241, 113, 67, 0.897);
+    color: antiquewhite;
+    padding: .5px 2px;
+    border-radius: 2px;   
+ }
+
+ /*second page*/
+
+ .second{
+   position: relative;
+   background-color:antiquewhite;
+   height: 190px;
+ }
+
+ .Rectanglewhite{
+   position: absolute;
+   top: 20px;
+   left: 120px;
+   width: 250px;
+   height: 150px;
+ }
+ 
+ .rose{
+  position: absolute;
+  top: 20px;
+  left: 245px;
+  width: 125px;
+  height: 150px;
+  z-index: 1;
+ }
+
+ .Health{
+   position: absolute;
+   top: 30px;
+   left: 140px;
+   font-size: 8px;
+   font-weight: bolder;
+ }
+
+ .taste{
+   position: absolute;
+   top: 40px;
+   left: 140px;
+   font-size: 7px;
+ }
+
+ .Lorem{
+   position: absolute;
+   top: 60px;
+   left: 140px;
+   width: 90px;
+   font-size: 6px;
+ }
+
+ .traditional{
+   position: absolute;
+   top: 90px;
+   left: 140px;
+   font-size: 7px;
+ }
+
+ .second ul{
+   display: block;
+   position: absolute;
+   top: 110px;
+   left: 150px;
+   font-size: 6px; 
+ }
+
+ .second ul li:hover{
+  color: cornsilk;
+ }
+
+.second input[type=button]{
+   position: absolute;
+   top: 145px;
+   left: 150px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;
+ }
+  
+ .lity{
+   position: absolute;
+   top: 170px;
+   left: 210px;
+   font-size: 7px;
+ }
+
+
+/* third page */
+
+.third{
+  position: relative;
+  background-color:antiquewhite;
+  height: 200px;
+ }
+
+ .mixy{
+  position: absolute;
+  margin-left: -15px; 
+  width: 420px; 
+  height: 200px;
+ } 
+
+.courses{
+   position: absolute;
+   top: 50px;
+   left: 230px;
+   font-size: 13px;
+   z-index: 1;
+ }
+
+.courses strong{
+  position: absolute;
+  top: -8px;
+  font-size: 15px;
+ }
+
+.lom{
+   position: absolute;
+   top: 160px;
+   left: 230px;
+   font-size: 8px;
+   z-index: 1;
+ }
+
+/* fourth page */
+
+ .fourth{
+   position: relative;
+   background-color:antiquewhite;
+   height: 250px;
+   z-index: -1;
+ }
+
+.white{
+   position: absolute;
+   top: 20px;
+   left: 90px;
+   width: 320px;
+   height: 200px;
+ }
+
+.break{
+   position: absolute;
+   top: 30px;
+   left: 100px;
+   width: 140px;
+   height: 180px;
+   z-index: 1;
+ }
+
+ .Bever{
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  font-size: 15px;
+}
+
+.Bever b{
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.given{
+  position: absolute;
+  top: 190px;
+  left: 250px;
+  width: 150px;
+  font-size: 6px;
+}  
+
+
+/* fifth page */
+
+.fifth{
+  position: relative;
+  background-color:antiquewhite;
+  height: 200px;
+}
+
+.image2{
+   position:absolute;
+   top: 0;
+   right: 0;
+   height: 200px;
+ }
+
+.sugar{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   font-size: 20px;
+   font-weight: bolder;
+ }
+
+.sugar strong{
+   position: absolute;
+   top: -30px;
+   left: 10px;
+   font-size: 20px;
+ }
+
+ div >p{
+   position: absolute;
+   top: 120px;
+   left: 50px;
+   width: 250px;
+   font-size: 15px;
+   z-index: 1;
+ }
+
+/* sixth page */
+
+.sixth{
+ position: relative;
+ background-color:antiquewhite;
+ height: 200px;
+ }
+
+.Rectangle{
+   position: absolute;
+   top: 20px;
+   left: 90px;
+   width: 280px;
+   height: 160px;
+ }
+
+.nurse{
+   position: absolute;
+   top: 20px;
+   left: 230px;
+   width: 140px;
+   height: 160px;
+   z-index: 1;
+ }
+
+.more{
+   position: absolute;
+   top: 25px;
+   left: 110px;
+   width: 80px;
+   font-size: 12px;
+ }
+
+.passinate{
+   position: absolute;
+   top: 55px;
+   left: 110px;
+   width: 100px;
+   font-size: 9px;
+   font-weight: lighter;
+ }
+
+.per{
+   position: absolute;
+   top: 80px;
+   left: 110px;
+   width: 100px;
+   font-size: 6px;
+ }
+
+.para{
+   position: absolute;
+   top: 110px;
+   left: 110px;
+   width: 100px;
+   font-size: 6px;
+ }
+
+.sixth input[type=button]{
+   position: absolute;
+   top: 145px;
+   left: 135px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;  
+ }
+
+.bottom{
+   position: absolute;
+   top: 160px;
+   left: 110px;
+   width: 100px;
+   font-size: 4px;
+ }
+
+/* seventh page */
+
+ .seventh{
+   position: relative;
+   background-color:antiquewhite;
+   height: 200px;
+ }
+
+.angle{
+   position: absolute;
+   top: 25px;
+   left: 0px;
+   width: 250px;
+   height: 150px;
+ }
+
+.hand{
+   position: absolute;
+   top: 25px;
+   left: 145px;
+   width: 110px;
+   height: 150px;
+ }
+
+.seasonal{
+   position: absolute;
+   top: 25px;
+   left: 20px;
+   font-size: 13px;
+   width: 100px;
+ }
+
+.little{
+   position: absolute;
+   top: 55px;
+   left: 20px;
+   width: 100px;
+   font-size: 10px;
+ }
+
+.dolo{
+   position: absolute;
+   top: 80px;
+   left: 20px;
+   width: 120px;
+   font-size: 8px;
+ }
+
+ .seventh ul{
+      position: absolute;
+      top: 130px;
+      left: 30px;
+      list-style-type:disc;
+      text-align: left;
+      font-weight: bold;
+      font-size: 7px;
+  }
+  
+.seventh input[type=submit]{
+   position: absolute;
+   top: 160px;
+   left: 30px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;
+
+ }
+
+.for{
+   position: absolute;
+   top: 30px;
+   left: 280px;
+   font-size: 20px;
+ }
+
+.accompany{
+   position: absolute;
+   top: 50px;
+   left: 280px;
+   width: 100px;
+   font-size: 10px;
+ }
+
+.cakepic{
+   position: absolute;
+   top: 80px;
+   right: 160px;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+ }
+
+.chocopic{
+   position: absolute;
+   top: 125px;
+   right: 160px;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+ }
+
+.seventh input[type=button]{
+   position: absolute;
+   top: 170px;
+   right: 90px;
+   font-size: 10px;
+   color: antiquewhite;
+   background-color: rgba(26, 19, 17, 0.897);
+   border:rgba(24, 15, 12, 0.897);
+   border-radius: 2px 7px;
+   padding: 2px;
+ }
+
+ .myorder{
+  position: absolute;
+   top: 80px;
+   left: 340px;
+   font-size: 10px;
+   text-decoration: underline;
+ }
+
+ .order{
+  position: absolute;
+   top: 125px;
+   left: 340px;
+   font-size: 10px;
+   text-decoration:underline;
+ }
+
+/* eight */
+
+.eight{
+ position: relative;
+ background-color: antiquewhite;
+ height: 230px;
+ }
+
+.delibreak{
+   position: absolute;
+   top: 40px;
+   left: 120px;
+   font-size: 40px;
+   letter-spacing: 3px;
+ }
+
+.fav{
+   position: absolute;
+   top: 100px;
+   left: 140px;
+   width: 150px;
+   font-size: 15px;
+ }
+
+.sign{
+   position: absolute;
+   top: 150px;
+   left: 180px;
+   font-size: 12px;
+ }
+
+.loem{
+   position: absolute;
+   top: 182px;
+   left: 100px;
+   width: 250px;
+   font-size: 8px;
+ }
+
+.star1{
+   position: absolute;
+   top: 20px;
+   left: 80px;
+   width: 300px;
+ }
+
+/* nine */
+
+.nine{
+   position: relative;
+   background-color: antiquewhite;
+   height: 250px;
+ }
+
+.blacktwo{
+   position: absolute;
+   bottom:0;
+   width: 300px;
+   margin-left: 85px;
+   z-index: 1;
+ }
+
+ .dei{
+   position: absolute;
+    font-size: 25px;
+    top: 70px;
+    left: 150px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(209, 121, 7);
+    z-index: 1;
+ }
+
+ .quaty{
+      position: absolute;
+      top: 100px;
+      left: 160px;
+      font-size: 10px;
+      color: aliceblue;
+      z-index: 1;
+ }
+
+   .soial{
+      display: inline-flex;
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      width: 15px;
+      height: 15px;
+      padding: 5px; 
+      z-index: 1;
+ }
+ 
+  .soial .Instagram{
+    width: 1px;
+    height: 1px;
+ }
+ 
+  .soial .facebook{
+    width: 1px;
+    height: 1px;
+    margin-left: 10px;
+ }
+ 
+  .soial .youtube{
+    width: 1px;
+    height: 1px;
+    margin-left: 10px;
+ }
+ 
+ .nine ul{
+     position: absolute;
+     top: 150px;
+     left: 100px;
+     list-style-type: none;
+     font-size: 10px;
+     z-index: 1;
+ }
+ 
+ .nine  ul li{
+    display: grid;
+ } 
+ 
+ .nine  ul li a{
+    display: grid;
+    text-decoration: none;
+    text-align: left;
+    padding: 1px;
+   color:rgb(187, 207, 189); 
+ } 
+ 
+ .nine li a:hover{
+    color: rgba(26, 178, 189, 0.938);
+ } 
+
+.nine ol{
+   position: absolute;
+   top: 150px;
+   left: 180px;
+   list-style-type: none;
+   font-size: 10px;
+   z-index: 1;
+}
+
+.nine ol li{
+  display: grid;
+ } 
+
+.nine ol li{
+  display: grid;
+  text-decoration: none;
+  text-align: left;
+  padding: 1px;
+ color:rgb(180, 194, 181); 
+ } 
+
+.nine li a:hover{
+  color: rgba(26, 178, 189, 0.938);
+ } 
+ 
+.news{
+   position: absolute;
+   top: 130px;
+   left: 260px;
+   font-size: 10px;
+   color: aliceblue;
+   z-index: 1;
+ }
+
+.nine input[type=text]{
+   position: absolute;
+   top: 160px;
+   left: 260px;
+   width: 90px;
+   border-radius: 8px;
+   border-color: antiquewhite  ;
+   font-size: 10px;
+   z-index: 1;
+ }
+
+.nine input[type=email]{
+   position: absolute;
+   top: 180px;
+   left: 260px;
+   width: 90px;
+   border-radius: 8px;
+   border-color: antiquewhite;
+   font-size: 10px;
+   z-index: 1;
+ }
+
+.nine input[type=submit]{
+   position: absolute;
+   top: 200px;
+   left: 260px;
+   width: 90px;
+   font-size: 10px;
+   border-radius: 7px;
+   border-color: antiquewhite;
+   z-index: 1;
+ }
+
+}
+
+/* second type */
+
+@media screen and (min-width:481px)
+{
+/* top-heading */
+body{
+   background:rgb(241, 241, 241);
+}
+
+header{
+  background-color: antiquewhite;
+  height: 190px;
+  z-index: -1;
+}
+
+ .black{
+   position: absolute;
+   top: -10px;
+   width: 300px;
+   height: 50px;
+   margin-left: 80px;
+   z-index: 1;
+ }
+
+ .deli{
+   position: absolute;
+    font-size: 10px;
+    top: 5px;
+    left: 200px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: antiquewhite;
+    z-index: 1;
+   }
+
+ .Heading ul{
+     position: absolute;
+     display: flex;
+     top: 13px;
+     left: 100px;
+     list-style-type: none;
+     font-size: 8px;
+     z-index: 1;
+ }
+ 
+ .Heading  ul li{
+    display: inline-block;
+ } 
+ 
+ .Heading  ul li a{
+    display:flex;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+   color:rgb(19, 177, 40); 
+ } 
+ 
+ .Heading li a:hover{
+    color: rgba(218, 71, 13, 0.938);
+ } 
+
+ .social{
+     display: inline-flex;
+     position: absolute;
+     left: 190px;
+     top: 30px; 
+     z-index: 1;
+ }
+
+ .social .Instagram{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .social .facebook{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .social .youtube{
+   width: 5px;
+   height: 5px;
+   padding: 1px;
+ }
+
+ .quality{
+    font-size: 5px;
+    color: aliceblue;
+    font-size: 4px;
+    margin-left: 4px;
+ }
+
+ /*first page */
+
+ .dark{
+   position: absolute;
+   left: -12px;;
+   top: -12px;
+   width: 500px;
+   height: 203px;
+ }
+
+ .learn{
+   position: absolute;
+   right: 60px;
+   top: 70px;
+   font-size: 12px;
+   font-weight: 100;
+   font-family:system-ui;
+ }
+ 
+ .chocolate{
+   position: absolute;
+   right: 70px;
+   top: 110px;
+   font-size: 9px;
+   font-weight: 100px;
+   font-family:'poppins';
+ }
+
+ .chocolate a{
+    position: absolute;
+    top: 40px;
+    text-decoration: none;
+    background-color: rgba(241, 113, 67, 0.897);
+    color: antiquewhite;
+    padding: .5px 2px;
+    border-radius: 2px;   
+ }
+
+ /*second page*/
+
+ .second{
+   position: relative;
+   background-color:antiquewhite;
+   height: 190px;
+ }
+
+ .Rectanglewhite{
+   position: absolute;
+   top: 20px;
+   left: 120px;
+   width: 250px;
+   height: 150px;
+ }
+ 
+ .rose{
+  position: absolute;
+  top: 20px;
+  left: 245px;
+  width: 125px;
+  height: 150px;
+  z-index: 1;
+ }
+
+ .Health{
+   position: absolute;
+   top: 30px;
+   left: 140px;
+   font-size: 8px;
+   font-weight: bolder;
+ }
+
+ .taste{
+   position: absolute;
+   top: 40px;
+   left: 140px;
+   font-size: 7px;
+ }
+
+ .Lorem{
+   position: absolute;
+   top: 60px;
+   left: 140px;
+   width: 90px;
+   font-size: 6px;
+ }
+
+ .traditional{
+   position: absolute;
+   top: 90px;
+   left: 140px;
+   font-size: 7px;
+ }
+
+ .second ul{
+   display: block;
+   position: absolute;
+   top: 110px;
+   left: 150px;
+   font-size: 6px; 
+ }
+
+ .second ul li:hover{
+  color: cornsilk;
+ }
+
+.second input[type=button]{
+   position: absolute;
+   top: 145px;
+   left: 150px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;
+ }
+  
+ .lity{
+   position: absolute;
+   top: 170px;
+   left: 210px;
+   font-size: 7px;
+ }
+
+
+/* third page */
+
+.third{
+  position: relative;
+  background-color:antiquewhite;
+  height: 200px;
+ }
+
+ .mixy{
+  position: absolute;
+  margin-left: -15px; 
+  width: 420px; 
+  height: 200px;
+ } 
+
+.courses{
+   position: absolute;
+   top: 50px;
+   left: 230px;
+   font-size: 13px;
+   z-index: 1;
+ }
+
+.courses strong{
+  position: absolute;
+  top: -8px;
+  font-size: 15px;
+ }
+
+.lom{
+   position: absolute;
+   top: 160px;
+   left: 230px;
+   font-size: 8px;
+   z-index: 1;
+ }
+
+/* fourth page */
+
+ .fourth{
+   position: relative;
+   background-color:antiquewhite;
+   height: 250px;
+   z-index: -1;
+ }
+
+.white{
+   position: absolute;
+   top: 20px;
+   left: 90px;
+   width: 320px;
+   height: 200px;
+ }
+
+.break{
+   position: absolute;
+   top: 30px;
+   left: 100px;
+   width: 140px;
+   height: 180px;
+   z-index: 1;
+ }
+
+ .Bever{
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  font-size: 15px;
+}
+
+.Bever b{
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.given{
+  position: absolute;
+  top: 190px;
+  left: 250px;
+  width: 150px;
+  font-size: 6px;
+}  
+
+
+/* fifth page */
+
+.fifth{
+  position: relative;
+  background-color:antiquewhite;
+  height: 200px;
+}
+
+.image2{
+   position:absolute;
+   top: 0;
+   right: 0;
+   height: 200px;
+ }
+
+.sugar{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   font-size: 20px;
+   font-weight: bolder;
+ }
+
+.sugar strong{
+   position: absolute;
+   top: -30px;
+   left: 10px;
+   font-size: 20px;
+ }
+
+ div >p{
+   position: absolute;
+   top: 120px;
+   left: 50px;
+   width: 250px;
+   font-size: 15px;
+   z-index: 1;
+ }
+
+/* sixth page */
+
+.sixth{
+ position: relative;
+ background-color:antiquewhite;
+ height: 200px;
+ }
+
+.Rectangle{
+   position: absolute;
+   top: 20px;
+   left: 90px;
+   width: 280px;
+   height: 160px;
+ }
+
+.nurse{
+   position: absolute;
+   top: 20px;
+   left: 230px;
+   width: 140px;
+   height: 160px;
+   z-index: 1;
+ }
+
+.more{
+   position: absolute;
+   top: 25px;
+   left: 110px;
+   width: 80px;
+   font-size: 12px;
+ }
+
+.passinate{
+   position: absolute;
+   top: 55px;
+   left: 110px;
+   width: 100px;
+   font-size: 9px;
+   font-weight: lighter;
+ }
+
+.per{
+   position: absolute;
+   top: 80px;
+   left: 110px;
+   width: 100px;
+   font-size: 6px;
+ }
+
+.para{
+   position: absolute;
+   top: 110px;
+   left: 110px;
+   width: 100px;
+   font-size: 6px;
+ }
+
+.sixth input[type=button]{
+   position: absolute;
+   top: 145px;
+   left: 135px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;  
+ }
+
+.bottom{
+   position: absolute;
+   top: 160px;
+   left: 110px;
+   width: 100px;
+   font-size: 4px;
+ }
+
+/* seventh page */
+
+ .seventh{
+   position: relative;
+   background-color:antiquewhite;
+   height: 200px;
+ }
+
+.angle{
+   position: absolute;
+   top: 25px;
+   left: 0px;
+   width: 250px;
+   height: 150px;
+ }
+
+.hand{
+   position: absolute;
+   top: 25px;
+   left: 145px;
+   width: 110px;
+   height: 150px;
+ }
+
+.seasonal{
+   position: absolute;
+   top: 25px;
+   left: 20px;
+   font-size: 13px;
+   width: 100px;
+ }
+
+.little{
+   position: absolute;
+   top: 55px;
+   left: 20px;
+   width: 100px;
+   font-size: 10px;
+ }
+
+.dolo{
+   position: absolute;
+   top: 80px;
+   left: 20px;
+   width: 120px;
+   font-size: 8px;
+ }
+
+ .seventh ul{
+      position: absolute;
+      top: 130px;
+      left: 30px;
+      list-style-type:disc;
+      text-align: left;
+      font-weight: bold;
+      font-size: 7px;
+  }
+  
+.seventh input[type=submit]{
+   position: absolute;
+   top: 160px;
+   left: 30px;
+   font-size: 7px;
+   background-color: rgba(241, 113, 67, 0.897);
+   border:rgba(241, 113, 67, 0.897);
+   border-radius: 2px;
+   padding: 1px;
+
+ }
+
+.for{
+   position: absolute;
+   top: 30px;
+   left: 280px;
+   font-size: 20px;
+ }
+
+.accompany{
+   position: absolute;
+   top: 50px;
+   left: 280px;
+   width: 100px;
+   font-size: 10px;
+ }
+
+.cakepic{
+   position: absolute;
+   top: 80px;
+   right: 160px;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+ }
+
+.chocopic{
+   position: absolute;
+   top: 125px;
+   right: 160px;
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+ }
+
+.seventh input[type=button]{
+   position: absolute;
+   top: 170px;
+   right: 90px;
+   font-size: 10px;
+   color: antiquewhite;
+   background-color: rgba(26, 19, 17, 0.897);
+   border:rgba(24, 15, 12, 0.897);
+   border-radius: 2px 7px;
+   padding: 2px;
+ }
+
+ .myorder{
+  position: absolute;
+   top: 80px;
+   left: 340px;
+   font-size: 10px;
+   text-decoration: underline;
+ }
+
+ .order{
+  position: absolute;
+   top: 125px;
+   left: 340px;
+   font-size: 10px;
+   text-decoration:underline;
+ }
+
+/* eight */
+
+.eight{
+ position: relative;
+ background-color: antiquewhite;
+ height: 230px;
+ }
+
+.delibreak{
+   position: absolute;
+   top: 40px;
+   left: 120px;
+   font-size: 40px;
+   letter-spacing: 3px;
+ }
+
+.fav{
+   position: absolute;
+   top: 100px;
+   left: 140px;
+   width: 150px;
+   font-size: 15px;
+ }
+
+.sign{
+   position: absolute;
+   top: 150px;
+   left: 180px;
+   font-size: 12px;
+ }
+
+.loem{
+   position: absolute;
+   top: 182px;
+   left: 100px;
+   width: 250px;
+   font-size: 8px;
+ }
+
+.star1{
+   position: absolute;
+   top: 20px;
+   left: 80px;
+   width: 300px;
+ }
+
+/* nine */
+
+.nine{
+   position: relative;
+   background-color: antiquewhite;
+   height: 250px;
+ }
+
+.blacktwo{
+   position: absolute;
+   bottom:0;
+   width: 300px;
+   margin-left: 85px;
+   z-index: 1;
+ }
+
+ .dei{
+   position: absolute;
+    font-size: 25px;
+    top: 70px;
+    left: 150px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(209, 121, 7);
+    z-index: 1;
+ }
+
+ .quaty{
+      position: absolute;
+      top: 100px;
+      left: 160px;
+      font-size: 10px;
+      color: aliceblue;
+      z-index: 1;
+ }
+
+   .soial{
+      display: inline-flex;
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      width: 15px;
+      height: 15px;
+      padding: 5px; 
+      z-index: 1;
+ }
+ 
+  .soial .Instagram{
+    width: 1px;
+    height: 1px;
+ }
+ 
+  .soial .facebook{
+    width: 1px;
+    height: 1px;
+    margin-left: 10px;
+ }
+ 
+  .soial .youtube{
+    width: 1px;
+    height: 1px;
+    margin-left: 10px;
+ }
+ 
+ .nine ul{
+     position: absolute;
+     top: 150px;
+     left: 100px;
+     list-style-type: none;
+     font-size: 10px;
+     z-index: 1;
+ }
+ 
+ .nine  ul li{
+    display: grid;
+ } 
+ 
+ .nine  ul li a{
+    display: grid;
+    text-decoration: none;
+    text-align: left;
+    padding: 1px;
+   color:rgb(187, 207, 189); 
+ } 
+ 
+ .nine li a:hover{
+    color: rgba(26, 178, 189, 0.938);
+ } 
+
+.nine ol{
+   position: absolute;
+   top: 150px;
+   left: 180px;
+   list-style-type: none;
+   font-size: 10px;
+   z-index: 1;
+}
+
+.nine ol li{
+  display: grid;
+ } 
+
+.nine ol li{
+  display: grid;
+  text-decoration: none;
+  text-align: left;
+  padding: 1px;
+ color:rgb(180, 194, 181); 
+ } 
+
+.nine li a:hover{
+  color: rgba(26, 178, 189, 0.938);
+ } 
+ 
+.news{
+   position: absolute;
+   top: 130px;
+   left: 260px;
+   font-size: 10px;
+   color: aliceblue;
+   z-index: 1;
+ }
+
+.nine input[type=text]{
+   position: absolute;
+   top: 160px;
+   left: 260px;
+   width: 90px;
+   border-radius: 8px;
+   border-color: antiquewhite  ;
+   font-size: 10px;
+   z-index: 1;
+ }
+
+.nine input[type=email]{
+   position: absolute;
+   top: 180px;
+   left: 260px;
+   width: 90px;
+   border-radius: 8px;
+   border-color: antiquewhite;
+   font-size: 10px;
+   z-index: 1;
+ }
+
+.nine input[type=submit]{
+   position: absolute;
+   top: 200px;
+   left: 260px;
+   width: 90px;
+   font-size: 10px;
+   border-radius: 7px;
+   border-color: antiquewhite;
+   z-index: 1;
+ }
+
+}
+
+/* third type */
+
+
+@media screen and (min-width:720px)
+{
+
+/* top-heading */
+
+body{
+ background:rgb(241, 241, 241);
+}
+
+header{
+background-color:antiquewhite;
+width: 720px;
+height: 300px;
+z-index: -1;
+}
+
+.black{
+ position: absolute;
+ top: -20px;
+ width: 550px;
+ height: 110px;
+ left: 0px;
+ z-index: 1;
+}
+
+.deli{
+ position: absolute;
+  font-size: 25px;
+  top: 10px;
+  left: 260px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: lighter;
+  color: antiquewhite;
+  z-index: 1;
+ }
+
+.Heading ul{
+   position: absolute;
+   display: flex;
+   top: 34px;
+   left: 120px;
+   list-style-type: none;
+   font-size: 15px;
+   z-index: 1;
+}
+
+.Heading  ul li{
+  display: inline-block;
+} 
+
+.Heading  ul li a{
+  display:flex;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+ color:rgb(19, 177, 40); 
+} 
+
+.Heading li a:hover{
+  color: rgba(218, 71, 13, 0.938);
+} 
+
+.social{
+   display: inline-flex;
+   position: absolute;
+   left: 230px;
+   top: 65px; 
+   z-index: 1;
+}
+
+.social .Instagram{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.social .facebook{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.social .youtube{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.quality{
+  margin-top: 3px;
+  margin-left: 4px;
+  font-size: 13px;
+  color: aliceblue;
+}
+
+/*first page */
+
+.dark{
+ position: absolute;
+ left:-40px;
+ top: -12px;
+ width: 760px;
+ height: 312px;
+}
+
+.learn{
+ position: absolute;
+ left: 460px;
+ top: 100px;
+ font-size: 20px;
+ font-weight: 100;
+ font-family:system-ui;
+}
+
+.chocolate{
+ position: absolute;
+ left: 460px;
+ top: 160px;
+ font-size: 18px;
+ font-weight: 100px;
+ font-family:'poppins';
+}
+
+.chocolate a{
+  position: absolute;
+  top: 70px;
+  text-decoration: none;
+  background-color: rgba(241, 113, 67, 0.897);
+  color: antiquewhite;
+  padding: 2px 5px;
+  border-radius: 5px;   
+}
+
+/*second page*/
+
+.second{
+ position: relative;
+ background-color:antiquewhite;
+ height: 300px;
+}
+
+.Rectanglewhite{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 500px;
+ height: 250px;
+}
+
+.rose{
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+ }
+
+.Health{
+ position: absolute;
+ top: 30px;
+ left: 140px;
+ font-size: 20px;
+ font-weight: bolder;
+}
+
+.taste{
+ position: absolute;
+ top: 50px;
+ left: 130px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.Lorem{
+ position: absolute;
+ top: 95px;
+ left: 120px;
+ width: 230px;
+ font-size: 15px;
+ font-weight: 300;
+}
+
+.traditional{
+ position: absolute;
+ top: 165px;
+ left: 140px;
+ font-size: 13px;
+}
+
+.second ul{
+ display: block;
+ position: absolute;
+ top: 200px;
+ left: 160px;
+ font-size: 10px; 
+}
+
+.second ul li:hover{
+color: cornsilk;
+}
+
+.second input[type=button]{
+ position: absolute;
+ top: 250px;
+ left: 160px;
+ font-size: 10px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 2px 5px;
+}
+
+.lity{
+ position: absolute;
+ top: 272px;
+ left: 250px;
+ font-size: 15px;
+}
+
+
+/* third page */
+
+.third{
+position: relative;
+background-color:antiquewhite;
+height: 300px;
+}
+
+.mixy{
+position: absolute;
+margin-left: -15px; 
+width: 735px; 
+height: 300px;
+} 
+
+.courses{
+ position: absolute;
+ top: 70px;
+ left: 400px;
+ font-size: 20px;
+ z-index: 1;
+}
+
+.courses strong{
+position: absolute;
+top: -8px;
+font-size: 25px;
+}
+
+.lom{
+ position: absolute;
+ top: 240px;
+ left: 390px;
+ width: 300px;
+ font-size: 13px;
+ z-index: 1;
+}
+
+/* fourth page */
+
+.fourth{
+ position: relative;
+ background-color:antiquewhite;
+ height: 300px;
+ z-index: -1;
+}
+
+.white{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 500px;
+ height: 250px;
+ z-index: -1;
+}
+
+.break{
+ position: absolute;
+ top: 34px;
+ left: 112px;
+ width: 220px;
+ height: 220px;
+}
+
+.Bever{
+  position: absolute;
+  top: 65px;
+  left: 370px;
+  font-size: 20px;
+}
+
+.Bever b{
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  font-size: 25px;
+}
+
+.given{
+  position: absolute;
+  top: 220px;
+  left: 340px;
+  width: 250px;
+  font-size: 10px;
+}  
+
+
+/* fifth page */
+
+.fifth{
+position: relative;
+background-color:antiquewhite;
+height: 300px;
+}
+
+.image2{
+ position:absolute;
+ top: 0;
+ right: 0;
+ height: 300px;
+}
+
+.sugar{
+ position: absolute;
+ top: 100px;
+ left: 30px;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.sugar strong{
+ position: absolute;
+ top: -50px;
+ left: 0px;
+ font-size: 35px;
+ font-weight: lighter;
+}
+
+div >p{
+ position: absolute;
+ top: 210px;
+ left: 30px;
+ width: 300px;
+ font-size: 20px;
+ z-index: 1;
+}
+
+/* sixth page */
+
+.sixth{
+position: relative;
+background-color:antiquewhite;
+height: 300px;
+}
+
+.Rectangle{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 500px;
+ height: 250px;
+}
+
+.nurse{
+ position: absolute;
+ top: 20px;
+ left: 350px;
+ width: 250px;
+ height: 250px;
+ z-index: 1;
+}
+
+.more{
+ position: absolute;
+ top: 30px;
+ left: 140px;
+ width: 150px;
+ font-size: 23px;
+}
+
+.passinate{
+ position: absolute;
+ top: 90px;
+ left: 120px;
+ width: 200px;
+ font-size: 15px;
+ font-weight: lighter;
+}
+
+.per{
+ position: absolute;
+ top: 130px;
+ left: 120px;
+ width: 250px;
+ font-size: 10px;
+}
+
+.para{
+ position: absolute;
+ top: 170px;
+ left: 120px;
+ width: 250px;
+ font-size: 10px;
+}
+
+.sixth input[type=button]{
+ position: absolute;
+ top: 215px;
+ left: 140px;
+ font-size: 13px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 15px;  
+}
+
+.bottom{
+ position: absolute;
+ top: 240px;
+ left: 120px;
+ width: 250px;
+ font-size: 10px;
+}
+
+/* seventh page */
+
+.seventh{
+ position: relative;
+ background-color:antiquewhite;
+ height: 300px;
+}
+
+.angle{
+ position: absolute;
+ top: 25px;
+ left: -50px;
+ width: 500px;
+ height: 250px;
+}
+
+.hand{
+ position: absolute;
+ top: 25px;
+ left: 250px;
+ width: 200px;
+ height: 250px;
+}
+
+.seasonal{
+ position: absolute;
+ top: 25px;
+ left: 20px;
+ font-size: 25px;
+ width: 200px;
+}
+
+.little{
+ position: absolute;
+ top: 85px;
+ left: 20px;
+ width: 200px;
+ font-size: 20px;
+}
+
+.dolo{
+ position: absolute;
+ top: 140px;
+ left: 20px;
+ width: 200px;
+ font-size: 10px;
+}
+
+.seventh ul{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    list-style-type:disc;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.seventh input[type=submit]{
+ position: absolute;
+ top: 250px;
+ left: 40px;
+ font-size: 10px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 10px;
+
+}
+
+.for{
+ position: absolute;
+ top: 20px;
+ left: 500px;
+ font-size: 30px;
+}
+
+.accompany{
+ position: absolute;
+ top: 50px;
+ left: 500px;
+ width: 200px;
+ font-size: 15px;
+}
+
+.cakepic{
+ position: absolute;
+ top: 100px;
+ right: 180px;
+ width: 70px;
+ height: 70px;
+ border-radius: 10px;
+}
+
+.chocopic{
+ position: absolute;
+ top: 190px;
+ right: 180px;
+ width: 70px;
+ height: 70px;
+ border-radius: 10px;
+}
+
+.seventh input[type=button]{
+ position: absolute;
+ top: 265px;
+ right: 60px;
+ font-size: 15px;
+ color: antiquewhite;
+ background-color: rgba(26, 19, 17, 0.897);
+ border:rgba(24, 15, 12, 0.897);
+ border-radius: 1px 10px;
+ padding: 3px 10px;
+}
+
+.myorder{
+position: absolute;
+ top: 110px;
+ left: 580px;
+ font-size: 13px;
+ text-decoration: underline;
+}
+
+.order{
+position: absolute;
+ top: 190px;
+ left: 580px;
+ font-size: 13px;
+ text-decoration:underline;
+}
+
+/* eight */
+
+.eight{
+position: relative;
+background-color:antiquewhite;
+height: 300px;
+}
+
+.delibreak{
+ position: absolute;
+ top: 30px;
+ left: 180px;
+ font-size: 60px;
+ letter-spacing: 10px;
+}
+
+.fav{
+ position: absolute;
+ top: 100px;
+ left: 110px;
+ width: 550px;
+ font-size: 30px;
+}
+
+.sign{
+ position: absolute;
+ top: 150px;
+ left: 280px;
+ font-size: 25px;
+}
+
+.loem{
+ position: absolute;
+ top: 200px;
+ left: 120px;
+ width: 500px;
+ font-size: 15px;
+}
+
+.star1{
+ position: absolute;
+ top: 0;
+ left: 50px;
+ width: 500px;
+}
+
+/* nine */
+
+.nine{
+ position: relative;
+ background-color: antiquewhite;
+ height: 400px;
+}
+
+.blacktwo{
+ position: absolute;
+ bottom: -40px;
+ width: 500px;
+ margin-left: 100px;
+ z-index: 1;
+}
+
+.dei{
+ position: absolute;
+  font-size: 40px;
+  top: 140px;
+  left: 200px;
+  letter-spacing: 5px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: rgb(209, 121, 7);
+  z-index: 1;
+}
+
+.quaty{
+    position: absolute;
+    top: 185px;
+    left: 230px;
+    font-size: 18px;
+    color: aliceblue;
+    z-index: 1;
+}
+
+ .soial{
+    display: inline-flex;
+    position: absolute;
+    top: 210px;
+    left: 120px; 
+    z-index: 1;
+    
+}
+
+.soial .Instagram{
+  width: 5px;
+  height: 5px;
+}
+
+.soial .facebook{
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+}
+
+.soial .youtube{
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+}
+
+.nine ul{
+   position: absolute;
+   top: 270px;
+   left: 130px;
+   list-style-type: none;
+   font-size: 15px;
+   z-index: 1;
+}
+
+.nine  ul li{
+  display: grid;
+} 
+
+.nine  ul li a{
+  display: grid;
+  text-decoration: none;
+  text-align: left;
+  padding: 1px;
+ color:rgb(187, 207, 189); 
+} 
+
+.nine li a:hover{
+  color: rgba(26, 178, 189, 0.938);
+} 
+
+.nine ol{
+  position: absolute;
+  top: 270px;
+  left: 250px;
+  list-style-type: none;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.nine ol li{
+ display: grid;
+} 
+
+.nine ol li{
+ display: grid;
+ text-decoration: none;
+ text-align: left;
+ padding: 1px;
+ color:rgb(180, 194, 181); 
+} 
+
+.nine li a:hover{
+ color: rgba(26, 178, 189, 0.938);
+} 
+
+.news{
+ position: absolute;
+ top: 240px;
+ left: 420px;
+ font-size: 18px;
+ color: aliceblue;
+ z-index: 1;
+}
+
+.nine input[type=text]{
+ position: absolute;
+ top: 290px;
+ left: 420px;
+ width: 90px;
+ border-radius: 8px;
+ border-color: antiquewhite  ;
+ font-size: 10px;
+ padding: 2px 10px;
+ z-index: 1;
+}
+
+.nine input[type=email]{
+  position: absolute;
+  top: 320px;
+  left: 420px;
+  width: 90px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 2px 10px;
+  z-index: 1;
+}
+
+.nine input[type=submit]{
+  position: absolute;
+  top: 350px;
+  left: 430px;
+  width: 90px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 2px 10px;
+  z-index: 1;
+}
+
+}
+
+/* fourth type */
+
+@media screen and (min-width:900px)
+{
+
+/* top-heading */
+
+body{
+ background:rgb(241, 241, 241);
+}
+
+header{
+background-color:antiquewhite;
+width: 720px;
+height: 400px;
+z-index: -1;
+}
+
+.black{
+ position: absolute;
+ top: -20px;
+ width: 700px;
+ height: 110px;
+ left: 40px;
+ z-index: 1;
+}
+
+.deli{
+ position: absolute;
+  font-size: 25px;
+  top: 10px;
+  left: 370px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: lighter;
+  color: antiquewhite;
+  z-index: 1;
+ }
+
+.Heading ul{
+   position: absolute;
+   display: flex;
+   top: 30px;
+   left: 170px;
+   list-style-type: none;
+   font-size: 20px;
+   z-index: 1;
+}
+
+.Heading  ul li{
+  display: inline-block;
+} 
+
+.Heading  ul li a{
+  display:flex;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+ color:rgb(19, 177, 40); 
+} 
+
+.Heading li a:hover{
+  color: rgba(218, 71, 13, 0.938);
+} 
+
+.social{
+   display: inline-flex;
+   position: absolute;
+   left: 340px;
+   top: 65px; 
+   z-index: 1;
+}
+
+.social .Instagram{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.social .facebook{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.social .youtube{
+ width: 12px;
+ height: 12px;
+ padding: 5px;
+}
+
+.quality{
+  margin-top: 3px;
+  margin-left: 4px;
+  font-size: 13px;
+  color: aliceblue;
+}
+
+/*first page */
+
+.dark{
+ position: absolute;
+ left:-40px;
+ top: -12px;
+ width: 900px;
+ height: 412px;
+}
+
+.learn{
+ position: absolute;
+ left: 550px;
+ top: 110px;
+ font-size: 28px;
+ font-weight: 100;
+ font-family:system-ui;
+}
+
+.chocolate{
+ position: absolute;
+ left: 560px;
+ top: 200px;
+ font-size: 25px;
+ font-weight: 100px;
+ font-family:'poppins';
+}
+
+.chocolate a{
+  position: absolute;
+  top: 110px;
+  text-decoration: none;
+  background-color: rgba(241, 113, 67, 0.897);
+  color: antiquewhite;
+  padding: 2px 5px;
+  border-radius: 5px;   
+}
+
+/*second page*/
+
+.second{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+}
+
+.Rectanglewhite{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 700px;
+ height: 350px;
+}
+
+.rose{
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  width: 350px;
+  height: 350px;
+  z-index: 1;
+ }
+
+.Health{
+ position: absolute;
+ top: 40px;
+ left: 150px;
+ letter-spacing: 3px;
+ font-size: 25px;
+ font-weight: bolder;
+}
+
+.taste{
+ position: absolute;
+ top: 70px;
+ left: 150px;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.Lorem{
+ position: absolute;
+ top: 125px;
+ left: 150px;
+ width: 330px;
+ font-size: 18px;
+ font-weight: 300;
+}
+
+.traditional{
+ position: absolute;
+ top: 200px;
+ left: 150px;
+ font-size: 15px;
+ font-weight: 700;
+}
+
+.second ul{
+ display: block;
+ position: absolute;
+ top: 240px;
+ left: 180px;
+ font-size: 15px; 
+}
+
+.second ul li:hover{
+color: cornsilk;
+}
+
+.second input[type=button]{
+ position: absolute;
+ top: 320px;
+ left: 200px;
+ font-size: 15px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 10px;
+ padding: 5px 10px;
+}
+
+.lity{
+ position: absolute;
+ top: 370px;
+ left: 350px;
+ font-size: 20px;
+}
+
+
+/* third page */
+
+.third{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.mixy{
+position: absolute;
+margin-left: -15px; 
+width: 900px; 
+height: 400px;
+} 
+
+.courses{
+ position: absolute;
+ top: 70px;
+ left: 500px;
+ font-size: 30px;
+ z-index: 1;
+}
+
+.courses strong{
+position: absolute;
+top: -8px;
+font-size: 35px;
+}
+
+.lom{
+ position: absolute;
+ top: 340px;
+ left: 490px;
+ width: 500px;
+ font-size: 18px;
+ z-index: 1;
+}
+
+/* fourth page */
+
+.fourth{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+ z-index: -1;
+}
+
+.white{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 700px;
+ height: 350px;
+ z-index: -1;
+}
+
+.break{
+ position: absolute;
+ top: 45px;
+ left: 122px;
+ width: 300px;
+ height: 300px;
+}
+
+.Bever{
+  position: absolute;
+  top: 65px;
+  left: 470px;
+  font-size: 30px;
+}
+
+.Bever b{
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  font-size: 30px;
+}
+
+.given{
+  position: absolute;
+  top: 290px;
+  left: 430px;
+  width: 360px;
+  font-size: 15px;
+}  
+
+
+/* fifth page */
+
+.fifth{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.image2{
+ position:absolute;
+ top: 0;
+ right: 0;
+ height: 400px;
+}
+
+.sugar{
+ position: absolute;
+ top: 100px;
+ left: 30px;
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.sugar strong{
+ position: absolute;
+ top: -50px;
+ left: 0px;
+ font-size: 45px;
+ font-weight: lighter;
+}
+
+div >p{
+ position: absolute;
+ top: 250px;
+ left: 50px;
+ width: 400px;
+ font-size: 25px;
+ z-index: 1;
+}
+
+/* sixth page */
+
+.sixth{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.Rectangle{
+ position: absolute;
+ top: 20px;
+ left: 100px;
+ width: 700px;
+ height: 350px;
+}
+
+.nurse{
+ position: absolute;
+ top: 20px;
+ left: 450px;
+ width: 350px;
+ height: 350px;
+ z-index: 1;
+}
+
+.more{
+ position: absolute;
+ top: 40px;
+ left: 140px;
+ width: 150px;
+ font-size: 30px;
+}
+
+.passinate{
+ position: absolute;
+ top: 110px;
+ left: 130px;
+ width: 280px;
+ font-size: 20px;
+ font-weight: lighter;
+}
+
+.per{
+ position: absolute;
+ top: 160px;
+ left: 130px;
+ width: 330px;
+ font-size: 13px;
+}
+
+.para{
+ position: absolute;
+ top: 220px;
+ left: 130px;
+ width: 330px;
+ font-size: 13px;
+}
+
+.sixth input[type=button]{
+ position: absolute;
+ top: 285px;
+ left: 180px;
+ font-size: 13px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 15px;  
+}
+
+.bottom{
+ position: absolute;
+ top: 310px;
+ left: 130px;
+ width: 300px;
+ font-size: 13px;
+}
+
+/* seventh page */
+
+.seventh{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+}
+
+.angle{
+ position: absolute;
+ top: 25px;
+ left: -100px;
+ width: 650px;
+ height: 350px;
+}
+
+.hand{
+ position: absolute;
+ top: 25px;
+ left: 280px;
+ width: 280px;
+ height: 350px;
+}
+
+.seasonal{
+ position: absolute;
+ top: 25px;
+ left: 20px;
+ font-size: 30px;
+ width: 300px;
+}
+
+.little{
+ position: absolute;
+ top: 90px;
+ left: 20px;
+ width: 200px;
+ font-size: 25px;
+}
+
+.dolo{
+ position: absolute;
+ top: 160px;
+ left: 20px;
+ width: 260px;
+ font-size: 15px;
+}
+
+.seventh ul{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    list-style-type:disc;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.seventh input[type=submit]{
+ position: absolute;
+ top: 330px;
+ left: 50px;
+ font-size: 15px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 10px;
+
+}
+
+.for{
+ position: absolute;
+ top: 30px;
+ left: 600px;
+ font-size: 35px;
+}
+
+.accompany{
+ position: absolute;
+ top: 70px;
+ left: 600px;
+ width: 300px;
+ font-size: 23px;
+}
+
+.cakepic{
+ position: absolute;
+ top: 140px;
+ right: 200px;
+ width: 100px;
+ height: 90px;
+ border-radius: 10px;
+}
+
+.chocopic{
+ position: absolute;
+ top: 250px;
+ right: 200px;
+ width: 100px;
+ height: 90px;
+ border-radius: 10px;
+}
+
+.seventh input[type=button]{
+ position: absolute;
+ top: 350px;
+ right: 80px;
+ font-size: 20px;
+ color: antiquewhite;
+ background-color: rgba(26, 19, 17, 0.897);
+ border:rgba(24, 15, 12, 0.897);
+ border-radius: 1px 10px;
+ padding: 3px 10px;
+}
+
+.myorder{
+position: absolute;
+ top: 140px;
+ left: 750px;
+ font-size: 15px;
+ text-decoration: underline;
+}
+
+.order{
+position: absolute;
+ top: 250px;
+ left: 750px;
+ font-size: 15px;
+ text-decoration:underline;
+}
+
+/* eight */
+
+.eight{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.delibreak{
+ position: absolute;
+ top: 60px;
+ left: 250px;
+ font-size: 60px;
+ letter-spacing: 10px;
+}
+
+.fav{
+ position: absolute;
+ top: 140px;
+ left: 180px;
+ width: 550px;
+ font-size: 30px;
+}
+
+.sign{
+ position: absolute;
+ top: 190px;
+ left: 380px;
+ font-size: 25px;
+}
+
+.loem{
+ position: absolute;
+ top: 250px;
+ left: 150px;
+ width: 600px;
+ font-size: 20px;
+}
+
+.star1{
+ position: absolute;
+ top: 0;
+ left: 50px;
+ width: 700px;
+ height: 380px;
+}
+
+/* nine */
+
+.nine{
+ position: relative;
+ background-color: antiquewhite;
+ height: 400px;
+}
+
+.blacktwo{
+ position: absolute;
+ bottom: -100px;
+ width: 700px;
+ margin-left: 100px;
+ z-index: 1;
+}
+
+.dei{
+ position: absolute;
+  font-size: 45px;
+  top: 110px;
+  left: 250px;
+  letter-spacing: 5px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: rgb(209, 121, 7);
+  z-index: 1;
+}
+
+.quaty{
+    position: absolute;
+    top: 165px;
+    left: 290px;
+    font-size: 18px;
+    color: aliceblue;
+    z-index: 1;
+}
+
+ .soial{
+    display: inline-flex;
+    position: absolute;
+    top: 210px;
+    left: 190px; 
+    z-index: 1;
+    
+}
+
+.soial .Instagram{
+  width: 20px;
+  height: 20px;
+}
+
+.soial .facebook{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.soial .youtube{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.nine ul{
+   position: absolute;
+   top: 250px;
+   left: 150px;
+   list-style-type: none;
+   font-size: 20px;
+   z-index: 1;
+}
+
+.nine  ul li{
+  display: grid;
+} 
+
+.nine  ul li a{
+  display: grid;
+  text-decoration: none;
+  text-align: left;
+  padding: 1px;
+ color:rgb(187, 207, 189); 
+} 
+
+.nine li a:hover{
+  color: rgba(26, 178, 189, 0.938);
+} 
+
+.nine ol{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  list-style-type: none;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.nine ol li{
+ display: grid;
+} 
+
+.nine ol li{
+ display: grid;
+ text-decoration: none;
+ text-align: left;
+ padding: 1px;
+ color:rgb(180, 194, 181); 
+} 
+
+.nine li a:hover{
+ color: rgba(26, 178, 189, 0.938);
+} 
+
+.news{
+ position: absolute;
+ top: 220px;
+ left: 520px;
+ font-size: 20px;
+ color: aliceblue;
+ z-index: 1;
+}
+
+.nine input[type=text]{
+ position: absolute;
+ top: 290px;
+ left: 520px;
+ width: 170px;
+ border-radius: 8px;
+ border-color: antiquewhite  ;
+ font-size: 10px;
+ padding: 5px 10px;
+ z-index: 1;
+}
+
+.nine input[type=email]{
+  position: absolute;
+  top: 330px;
+  left: 520px;
+  width: 170px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+.nine input[type=submit]{
+  position: absolute;
+  top: 380px;
+  left: 540px;
+  width: 160px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+}
+
+/* fifth type */
+
+@media screen and (min-width:1000px)
+{
+
+/* top-heading */
+
+body{
+ background:rgb(241, 241, 241);
+}
+
+header{
+background-color:antiquewhite;
+width: 1520px;
+height: 400px;
+z-index: -1;
+}
+
+.black{
+ position: absolute;
+ top: -20px;
+ width: 1500px;
+ height: 110px;
+ left: 0px;
+ z-index: 1;
+}
+
+.deli{
+ position: absolute;
+  font-size: 50px;
+  top: 0px;
+  left: 600px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: lighter;
+  color: rgb(130, 94, 50);
+  z-index: 1;
+ }
+
+.Heading ul{
+   position: absolute;
+   display: flex;
+   top: 50px;
+   left: 380px;
+   list-style-type: none;
+   font-size: 25px;
+   z-index: 1;
+}
+
+.Heading  ul li{
+  display: inline-block;
+} 
+
+.Heading  ul li a{
+  display:flex;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+ color:rgb(19, 177, 40); 
+} 
+
+.Heading li a:hover{
+  color: rgba(218, 71, 13, 0.938);
+} 
+
+.social{
+   display: inline-flex;
+   position: absolute;
+   left: 500px;
+   top: 100px; 
+   z-index: 1;
+}
+
+.social .Instagram{
+ width: 24px;
+ height: 24px;
+ padding: 10px;
+}
+
+.social .facebook{
+ width: 24px;
+ height: 24px;
+ padding: 10px;
+}
+
+.social .youtube{
+ width: 24px;
+ height: 24px;
+ padding: 10px;
+}
+
+.quality{
+  margin-top: 5px;
+  margin-left: 4px;
+  font-size: 25px;
+  color: rgb(165, 168, 171);
+}
+
+/*first page */
+
+.dark{
+ position: absolute;
+ left:-40px;
+ top: -12px;
+ width: 1000px;
+ height: 412px;
+}
+
+.learn{
+ position: absolute;
+ left: 1000px;
+ top: 140px;
+ font-size: 35px;
+ font-weight: 100;
+ font-family:system-ui;
+}
+
+.chocolate{
+ position: absolute;
+ left: 1000px;
+ top: 250px;
+ font-size: 25px;
+ font-weight: 100px;
+ font-family:'poppins';
+}
+
+.chocolate a{
+  position: absolute;
+  top: 110px;
+  text-decoration: none;
+  background-color: rgba(241, 113, 67, 0.897);
+  color: antiquewhite;
+  padding: 2px 5px;
+  border-radius: 5px;   
+}
+
+/*second page*/
+
+.second{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+}
+
+.Rectanglewhite{
+ position: absolute;
+ top: 20px;
+ left: 200px;
+ width: 1000px;
+ height: 350px;
+}
+
+.rose{
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  width: 450px;
+  height: 350px;
+  z-index: 1;
+ }
+
+.Health{
+ position: absolute;
+ top: 40px;
+ left: 250px;
+ letter-spacing: 3px;
+ font-size: 25px;
+ font-weight: bolder;
+}
+
+.taste{
+ position: absolute;
+ top: 70px;
+ left: 250px;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.Lorem{
+ position: absolute;
+ top: 125px;
+ left: 250px;
+ width: 330px;
+ font-size: 18px;
+ font-weight: 300;
+}
+
+.traditional{
+ position: absolute;
+ top: 200px;
+ left: 250px;
+ font-size: 15px;
+ font-weight: 700;
+}
+
+.second ul{
+ display: block;
+ position: absolute;
+ top: 240px;
+ left: 280px;
+ font-size: 15px; 
+}
+
+.second ul li:hover{
+color: cornsilk;
+}
+
+.second input[type=button]{
+ position: absolute;
+ top: 320px;
+ left: 250px;
+ font-size: 15px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 10px;
+ padding: 5px 10px;
+}
+
+.lity{
+ position: absolute;
+ top: 370px;
+ left: 550px;
+ font-size: 25px;
+}
+
+
+/* third page */
+
+.third{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.mixy{
+position: absolute;
+margin-left: -15px; 
+width: 1000px; 
+height: 400px;
+} 
+
+.courses{
+ position: absolute;
+ top: 150px;
+ left: 800px;
+ font-size: 30px;
+ z-index: 1;
+}
+
+.courses strong{
+position: absolute;
+top: -8px;
+font-size: 35px;
+}
+
+.lom{
+ position: absolute;
+ top: 340px;
+ left: 550px;
+ width: 800px;
+ font-size: 18px;
+ z-index: 1;
+}
+
+/* fourth page */
+
+.fourth{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+ z-index: -1;
+}
+
+.white{
+ position: absolute;
+ top: 20px;
+ left: 200px;
+ width: 1000px;
+ height: 350px;
+ z-index: -1;
+}
+
+.break{
+ position: absolute;
+ top: 40px;
+ left: 222px;
+ width: 310px;
+ height: 310px;
+}
+
+.Bever{
+  position: absolute;
+  top: 75px;
+  left: 700px;
+  font-size: 30px;
+}
+
+.Bever b{
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  font-size: 30px;
+}
+
+.given{
+  position: absolute;
+  top: 160px;
+  left: 630px;
+  width: 360px;
+  font-size: 20px;
+}  
+
+
+/* fifth page */
+
+.fifth{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.image2{
+ position:absolute;
+ top: 0;
+ right: 20;
+ height: 400px;
+}
+
+.sugar{
+ position: absolute;
+ top: 100px;
+ left: 30px;
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.sugar strong{
+ position: absolute;
+ top: -50px;
+ left: 0px;
+ font-size: 45px;
+ font-weight: lighter;
+}
+
+div >p{
+ position: absolute;
+ top: 250px;
+ left: 50px;
+ width: 400px;
+ font-size: 25px;
+ z-index: 1;
+}
+
+/* sixth page */
+
+.sixth{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.Rectangle{
+ position: absolute;
+ top: 20px;
+ left: 200px;
+ width: 1000px;
+ height: 350px;
+}
+
+.nurse{
+ position: absolute;
+ top: 20px;
+ left: 850px;
+ width: 350px;
+ height: 350px;
+ z-index: 1;
+}
+
+.more{
+ position: absolute;
+ top: 40px;
+ left: 280px;
+ width: 150px;
+ font-size: 30px;
+}
+
+.passinate{
+ position: absolute;
+ top: 110px;
+ left: 280px;
+ width: 280px;
+ font-size: 20px;
+ font-weight: lighter;
+}
+
+.per{
+ position: absolute;
+ top: 160px;
+ left: 280px;
+ width: 330px;
+ font-size: 13px;
+}
+
+.para{
+ position: absolute;
+ top: 220px;
+ left: 280px;
+ width: 330px;
+ font-size: 13px;
+}
+
+.sixth input[type=button]{
+ position: absolute;
+ top: 285px;
+ left: 280px;
+ font-size: 13px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 15px;  
+}
+
+.bottom{
+ position: absolute;
+ top: 310px;
+ left: 280px;
+ width: 300px;
+ font-size: 13px;
+}
+
+/* seventh page */
+
+.seventh{
+ position: relative;
+ background-color:antiquewhite;
+ height: 400px;
+}
+
+.angle{
+ position: absolute;
+ top: 25px;
+ left: -50px;
+ width: 650px;
+ height: 350px;
+}
+
+.hand{
+ position: absolute;
+ top: 25px;
+ left: 330px;
+ width: 280px;
+ height: 350px;
+}
+
+.seasonal{
+ position: absolute;
+ top: 25px;
+ left: 30px;
+ font-size: 30px;
+ width: 300px;
+}
+
+.little{
+ position: absolute;
+ top: 90px;
+ left: 30px;
+ width: 200px;
+ font-size: 25px;
+}
+
+.dolo{
+ position: absolute;
+ top: 160px;
+ left: 30px;
+ width: 260px;
+ font-size: 15px;
+}
+
+.seventh ul{
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    list-style-type:disc;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.seventh input[type=submit]{
+ position: absolute;
+ top: 330px;
+ left: 50px;
+ font-size: 15px;
+ background-color: rgba(241, 113, 67, 0.897);
+ border:rgba(241, 113, 67, 0.897);
+ border-radius: 5px;
+ padding: 1px 10px;
+
+}
+
+.for{
+ position: absolute;
+ top: 30px;
+ left: 830px;
+ font-size: 35px;
+}
+
+.accompany{
+ position: absolute;
+ top: 70px;
+ left: 800px;
+ width: 300px;
+ font-size: 23px;
+}
+
+.cakepic{
+ position: absolute;
+ top: 120px;
+ right: 300px;
+ width: 150px;
+ height: 120px;
+ border-radius: 10px;
+}
+
+.chocopic{
+ position: absolute;
+ top: 250px;
+ right: 300px;
+ width: 150px;
+ height: 120px;
+ border-radius: 10px;
+}
+
+.seventh input[type=button]{
+ position: absolute;
+ top: 350px;
+ right: 280px;
+ font-size: 20px;
+ color: antiquewhite;
+ background-color: rgba(26, 19, 17, 0.897);
+ border:rgba(24, 15, 12, 0.897);
+ border-radius: 1px 10px;
+ padding: 3px 10px;
+}
+
+.myorder{
+position: absolute;
+ top: 140px;
+ left: 850px;
+ font-size: 20px;
+ text-decoration: underline;
+}
+
+.order{
+position: absolute;
+ top: 250px;
+ left: 850px;
+ font-size: 20px;
+ text-decoration:underline;
+}
+
+/* eight */
+
+.eight{
+position: relative;
+background-color:antiquewhite;
+height: 400px;
+}
+
+.delibreak{
+ position: absolute;
+ top: 60px;
+ left: 550px;
+ font-size: 60px;
+ letter-spacing: 10px;
+}
+
+.fav{
+ position: absolute;
+ top: 140px;
+ left: 520px;
+ width: 550px;
+ font-size: 30px;
+}
+
+.sign{
+ position: absolute;
+ top: 190px;
+ left: 680px;
+ font-size: 25px;
+}
+
+.loem{
+ position: absolute;
+ top: 250px;
+ left: 450px;
+ width: 600px;
+ font-size: 20px;
+}
+
+.star1{
+ position: absolute;
+ top: 0;
+ left: 350px;
+ width: 700px;
+ height: 380px;
+}
+
+/* nine */
+
+.nine{
+ position: relative;
+ background-color: antiquewhite;
+ height: 400px;
+}
+
+.blacktwo{
+ position: absolute;
+ bottom: -100px;
+ width: 700px;
+ margin-left: 400px;
+ z-index: 1;
+}
+
+.dei{
+ position: absolute;
+  font-size: 45px;
+  top: 110px;
+  left: 580px;
+  letter-spacing: 5px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: rgb(209, 121, 7);
+  z-index: 1;
+}
+
+.quaty{
+    position: absolute;
+    top: 165px;
+    left: 650px;
+    font-size: 18px;
+    color: aliceblue;
+    z-index: 1;
+}
+
+ .soial{
+    display: inline-flex;
+    position: absolute;
+    top: 200px;
+    left: 690px; 
+    z-index: 1;
+    
+}
+
+.soial .Instagram{
+  width: 30px;
+  height: 30px;
+}
+
+.soial .facebook{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.soial .youtube{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.nine ul{
+   position: absolute;
+   top: 250px;
+   left: 450px;
+   list-style-type: none;
+   font-size: 20px;
+   z-index: 1;
+}
+
+.nine  ul li{
+  display: grid;
+} 
+
+.nine  ul li a{
+  display: grid;
+  text-decoration: none;
+  text-align: left;
+  padding: 1px;
+ color:rgb(187, 207, 189); 
+} 
+
+.nine li a:hover{
+  color: rgba(26, 178, 189, 0.938);
+} 
+
+.nine ol{
+  position: absolute;
+  top: 250px;
+  left: 580px;
+  list-style-type: none;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.nine ol li{
+ display: grid;
+} 
+
+.nine ol li{
+ display: grid;
+ text-decoration: none;
+ text-align: left;
+ padding: 1px;
+ color:rgb(180, 194, 181); 
+} 
+
+.nine li a:hover{
+ color: rgba(26, 178, 189, 0.938);
+} 
+
+.news{
+ position: absolute;
+ top: 230px;
+ left: 720px;
+ font-size: 20px;
+ color: aliceblue;
+ z-index: 1;
+}
+
+.nine input[type=text]{
+ position: absolute;
+ top: 290px;
+ left: 720px;
+ width: 170px;
+ border-radius: 8px;
+ border-color: antiquewhite  ;
+ font-size: 10px;
+ padding: 5px 10px;
+ z-index: 1;
+}
+
+.nine input[type=email]{
+  position: absolute;
+  top: 330px;
+  left: 720px;
+  width: 170px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+.nine input[type=submit]{
+  position: absolute;
+  top: 380px;
+  left: 740px;
+  width: 160px;
+  border-radius: 8px;
+  border-color: antiquewhite  ;
+  font-size: 10px;
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+}
